@@ -22,4 +22,3 @@ elif sys.argv[1] == 'dividir':
         print(operando1 / operando2)
     except ZeroDivisionError:
         sys.exit("No se puede dividir entre cero")
-
